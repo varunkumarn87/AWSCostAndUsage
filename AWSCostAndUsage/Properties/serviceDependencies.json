@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "storage2": {
+      "type": "storage",
+      "connectionId": "BillingVisualizerStorage"
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "AWSCostAndUsage"
+    }
+  }
+}

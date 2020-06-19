@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "storage2": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId1')]/resourceGroups/[parameters('resourceGroup1')]/providers/Microsoft.Storage/storageAccounts/billingvisualizerstorage",
+      "type": "storage.azure",
+      "connectionId": "BillingVisualizerStorage",
+      "secretStore": null
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroup')]/providers/Microsoft.Storage/storageAccounts/awscostandusage",
+      "type": "storage.azure",
+      "connectionId": "AWSCostAndUsage",
+      "secretStore": null
+    }
+  }
+}
